@@ -1,43 +1,54 @@
 # 🚀 Personal Developer Portfolio
 
-A sleek, responsive, and modern personal portfolio website built to showcase my software development projects, technical skills, and background as a full-stack developer.
+A sleek, modern, and fully responsive personal portfolio website built with HTML5, CSS3, and JavaScript. Designed to showcase my software development projects, technical skills, and background as a full-stack developer.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1200&auto=format&fit=crop&q=80)
+---
 
-## ✨ Features
+## 🌟 Live Demo
 
-- **Dynamic Hero Section:** Eye-catching greeting, professional introduction, and quick social links (GitHub, LinkedIn, Instagram) featuring official brand icons.
-- **Interactive Project Showcase:** Filterable project categories (`All`, `Featured & Advanced`, `Frontend & JS`) with clean thumbnail previews.
-- **Smart Hover-Reveal Cards:** Compact card layouts that smoothly reveal project descriptions and tech stacks on cursor hover, keeping the UI clean and clutter-free.
-- **Modern Contact Section:** Dual-panel contact layout featuring direct email/location info and an interactive message form.
-- **Fully Responsive:** Optimized seamlessly for desktop, tablet, and mobile devices.
+🔗 **Explore Live Site:** [https://gb376052-cpu.github.io/My-Portfolio-08/](https://gb376052-cpu.github.io/My-Portfolio-08/)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Markup & Styling:** HTML5, CSS3 (Custom variables, Flexbox, Grid, Glassmorphism effects)
-- **Scripting:** Modern Vanilla JavaScript (DOM manipulation, dynamic filtering)
+- **Frontend:** HTML5, CSS3 (Custom Variables, Flexbox & CSS Grid)
+- **Scripting:** Vanilla JavaScript (DOM manipulation, interactive filters)
 - **Deployment:** GitHub Pages
+- **Icons & Typography:** Google Fonts, Font Awesome / Emoji icons
 
 ---
 
-## 💻 Featured Projects Included
+## ✨ Key Features
 
-1. **Alpine College ChatBot** - Interactive virtual assistant for campus admissions and FAQs.
-2. **Prime Karts** - E-commerce web platform with dynamic grid layouts and cart features.
-3. **Binance Trading Bot** - Python & Streamlit based crypto trading simulation dashboard.
-4. **Weather App** - Live weather forecasting web app utilizing REST APIs.
-5. **Mini Arcade Hub** - Collection of browser-based mini games built with HTML5 Canvas & JS.
-6. **JS Calculator** - Versatile multi-mode calculator with keyboard input support.
+- 📱 **Fully Responsive Layout:** Optimized smoothly for mobile, tablet, and desktop viewports.
+- 🖼️ **Interactive Project Showcase:** Filterable project categories (`All`, `Featured & Advanced`, `Frontend & JS`).
+- 👁️ **Smart Hover-Reveal Cards:** Clean, clutter-free card design where project descriptions and tech stacks smoothly slide/fade into view on hover.
+- ✉️ **Modern Contact Section:** Dual-panel contact layout with direct info and interactive message submission.
+- ⚡ **Smooth Animations:** Dynamic scroll-reveal effects and clean modern transitions.
+
+---
+
+## 📂 Featured Projects Table
+
+| Project | Category / Tech Stack | Live Demo | Source Code |
+| :--- | :--- | :---: | :---: |
+| **Alpine College ChatBot** | AI / Bot • JS, HTML, CSS | [Live Demo](https://gb376052-cpu.github.io/Alpine-ChatBot) | [Repository](https://github.com/gb376052-cpu/Alpine-ChatBot) |
+| **Prime Karts** | E-Commerce • HTML, CSS, JS | [Live Site](https://primekarts.netlify.app/) | [Repository](https://github.com/gb376052-cpu/PrimeKarts) |
+| **Binance Trading Bot** | FinTech • Python, Streamlit | [Live Site](https://binance-trading-bot-d4yhxzwc528r9bahufetzx.streamlit.app/) | [Repository](https://github.com/gb376052-cpu/binance-trading-bot) |
+| **Weather App** | Utility • Open-Meteo API, JS | [Live Demo](https://gb376052-cpu.github.io/Weather-App/) | [Repository](https://github.com/gb376052-cpu/Weather-App) |
+| **Mini Arcade Hub** | Gaming • Interactive Canvas/JS | [Live Demo](https://gb376052-cpu.github.io/MiniArcadeHub/) | [Repository](https://github.com/gb376052-cpu/MiniArcadeHub) |
+| **JS Calculator** | Tool • Multi-mode Calculator | [Live Demo](https://gb376052-cpu.github.io/JS-Calculator/) | [Repository](https://github.com/gb376052-cpu/JS-Calculator) |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
+My-Portfolio-08/
+│
 ├── index.html         # Main portfolio webpage
-├── style.css          # Global and component-specific stylesheets
-├── script.js          # Interactive scripts (filters, animations, form handling)
+├── style.css          # Core styles, variables & hover-reveal effects
+├── script.js          # Interactive filter scripts & UI animations
 ├── Profile.jpg        # Developer profile picture
-└── project1.jpg ...   # Project thumbnail images
+└── images/            # Project thumbnail previews
