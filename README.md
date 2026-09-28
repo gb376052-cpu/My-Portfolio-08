@@ -18,7 +18,7 @@ A sleek, responsive, and modern personal portfolio website built to showcase my 
 
 - **Markup & Styling:** HTML5, CSS3 (Custom variables, Flexbox, Grid, Glassmorphism effects)
 - **Scripting:** Modern Vanilla JavaScript (DOM manipulation, dynamic filtering)
-- **Deployment:** GitHub Pages / Render / Netlify
+- **Deployment:** GitHub Pages
 
 ---
 
@@ -38,6 +38,6 @@ A sleek, responsive, and modern personal portfolio website built to showcase my 
 ```text
 ├── index.html         # Main portfolio webpage
 ├── style.css          # Global and component-specific stylesheets
-├── script.h           # Interactive scripts (filters, animations, form handling)
+├── script.js          # Interactive scripts (filters, animations, form handling)
 ├── Profile.jpg        # Developer profile picture
 └── project1.jpg ...   # Project thumbnail images
