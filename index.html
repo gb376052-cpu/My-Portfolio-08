@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Bisht — Full Stack Developer</title>
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">Gaurav Bisht</a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <button id="theme-btn" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            </nav>
+
+            <div class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+<!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="hero-greeting">Hello, I'm</span>
+                <h1 class="hero-name">GAURAV BISHT</h1>
+                <h2 class="hero-typing-subtitle">
+                    <span id="typed-text" class="highlight"></span><span class="cursor">|</span>
+                </h2>
+                
+                <p class="hero-description">
+                    I'm a passionate Full Stack & Frontend Developer focused on building modern, responsive, and user-friendly web applications with clean, scalable code.
+                </p>
+
+                <!-- Email Pill Badge -->
+                <div class="hero-email-pill">
+                    <span class="pill-icon">✉️</span>
+                    <span>gb376052@gmail.com</span>
+                </div>
+
+              <!-- Social Icons Row -->
+                <div class="hero-social-row">
+                    <!-- GitHub -->
+                    <a href="https://github.com/gb376052-cpu" target="_blank" class="social-icon-btn" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/gaurav-bisht-917ab0336" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/rajput_gauravbisht" target="_blank" class="social-icon-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="ATS-Resume-GB.pdf" target="_blank" class="btn btn-outline">View Resume</a>
+                </div>
+            </div>
+
+            <!-- Right Side Image with Glowing Circular Frame -->
+            <div class="hero-image-container">
+                <div class="image-glow-ring"></div>
+                <div class="image-wrapper">
+                    <img src="Profile.jpg" alt="Gaurav Bisht" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60'">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about reveal" id="about">
+            <div class="section-header">
+                <span class="section-subtitle">Get to know me</span>
+                <h2>About Me</h2>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-card">
+                    <h3>Passionate Developer & Tech Enthusiast</h3>
+                    <p>
+                        I am a final-year Bachelor of Computer Applications (BCA) student with a strong drive for Full Stack Web Development. I love bridging the gap between technical logic and clean, responsive UI/UX design.
+                    </p>
+                    <p>
+                        Whether it's building interactive e-commerce platforms or real-time tools, I enjoy transforming creative ideas into high-performance, scalable web applications. I'm constantly learning new technologies and pushing my boundaries.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>6+</h4>
+                            <p>Projects Built</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>BCA</h4>
+                            <p>Final Year Student</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100%</h4>
+                            <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Academic Details Tree Section -->
+        <section class="academic-section reveal" id="academic">
+            <div class="section-header">
+                <span class="section-subtitle">Education Milestone</span>
+                <h2>Academic Journey</h2>
+            </div>
+
+            <!-- Tree Structure Container -->
+            <div class="academic-tree">
+                <div class="tree-root">🎓 Academic Details</div>
+                
+                <div class="tree-branches">
+                    
+                    <!-- College Node -->
+                    <div class="academic-node">
+                        <div class="node-dot"></div>
+                        <div class="academic-card">
+                            <span class="academic-badge">3rd Year • BCA (2024–27)</span>
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p class="academic-institution">🏫 Alpine Group of Institutes, Dehradun</p>
+                            <p class="academic-score">CGPA: <strong>7.45</strong></p>
+                            <div class="subjects-dropdown">
+                                <span class="subject-tag">Python</span>
+                                <span class="subject-tag">JavaScript</span>
+                                <span class="subject-tag">HTML / CSS</span>
+                                <span class="subject-tag">Data Structures</span>
+                                <span class="subject-tag">Computer Networks</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 12th Node -->
+                    <div class="academic-node">
+                        <div class="node-dot"></div>
+                        <div class="academic-card">
+                            <span class="academic-badge">Higher Secondary (2023–24)</span>
+                            <h3>12th Grade (Intermediate)</h3>
+                            <p class="academic-institution">🏫 GIC Raingal, Almora</p>
+                            <p class="academic-score">Percentage: <strong>83%</strong></p>
+                            <div class="subjects-dropdown">
+                                <span class="subject-tag">Physics</span>
+                                <span class="subject-tag">Chemistry</span>
+                                <span class="subject-tag">Mathematics</span>
+                                <span class="subject-tag">English</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 10th Node -->
+                    <div class="academic-node">
+                        <div class="node-dot"></div>
+                        <div class="academic-card">
+                            <span class="academic-badge">Secondary School (2021–22)</span>
+                            <h3>10th Grade (Matriculation)</h3>
+                            <p class="academic-institution">🏫 GHSS Joor Kafoon, Almora</p>
+                            <p class="academic-score">Percentage: <strong>81%</strong></p>
+                            <div class="subjects-dropdown">
+                                <span class="subject-tag">Mathematics</span>
+                                <span class="subject-tag">Science</span>
+                                <span class="subject-tag">English</span>
+                                <span class="subject-tag">Social Science</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+  <!-- Skills & Technologies Section -->
+        <section class="skills-section reveal" id="skills">
+            <div class="section-header">
+                <span class="section-badge-top">&lt;/&gt; Technical Skills</span>
+                <h2>Skills & <span class="highlight">Technologies</span></h2>
+                <p class="section-desc">A collection of technologies, tools, and programming languages I use to build modern and scalable web applications.</p>
+            </div>
+
+            <div class="skills-decks-container">
+                
+                <!-- Wrapper Box 1: Programming Languages -->
+                <div class="skill-wrapper-card">
+                    <div class="wrapper-header">
+                        <div class="wrapper-icon">💻</div>
+                        <div>
+                            <h3>Programming Languages</h3>
+                            <p>Core languages I use for problem-solving and software development.</p>
+                        </div>
+                    </div>
+                    <div class="sub-cards-grid">
+                        <div class="sub-card">
+                            <span class="sub-icon">🐍</span>
+                            <h4>Python</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">⚡</span>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">⚙️</span>
+                            <h4>C++</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon"></span>
+                            <h4>C</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wrapper Box 2: Frontend Development -->
+                <div class="skill-wrapper-card">
+                    <div class="wrapper-header">
+                        <div class="wrapper-icon">🌐</div>
+                        <div>
+                            <h3>Frontend Development</h3>
+                            <p>Technologies I use to build responsive and interactive user interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="sub-cards-grid">
+                        <div class="sub-card">
+                            <span class="sub-icon">📄</span>
+                            <h4>HTML5</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">🎨</span>
+                            <h4>CSS3</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">✨</span>
+                            <h4>Responsive UI</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">⚡</span>
+                            <h4>DOM & JS</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wrapper Box 3: Backend & Development Tools -->
+                <div class="skill-wrapper-card">
+                    <div class="wrapper-header">
+                        <div class="wrapper-icon">🛠️</div>
+                        <div>
+                            <h3>Backend & Tools</h3>
+                            <p>Server-side technologies and developer tools used to build scalable apps.</p>
+                        </div>
+                    </div>
+                    <div class="sub-cards-grid">
+                        <div class="sub-card">
+                            <span class="sub-icon">🚀</span>
+                            <h4>Flask / FastAPI</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">📊</span>
+                            <h4>Streamlit</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">🗄️</span>
+                            <h4>SQLite / DB</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">🐙</span>
+                            <h4>Git & GitHub</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wrapper Box 4: Soft Skills -->
+                <div class="skill-wrapper-card">
+                    <div class="wrapper-header">
+                        <div class="wrapper-icon">🤝</div>
+                        <div>
+                            <h3>Soft Skills</h3>
+                            <p>Interpersonal and management capabilities for smooth project execution.</p>
+                        </div>
+                    </div>
+                    <div class="sub-cards-grid">
+                        <div class="sub-card">
+                            <span class="sub-icon">🧩</span>
+                            <h4>Problem Solving</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">💬</span>
+                            <h4>Client Communication</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">⏱️</span>
+                            <h4>Time Management</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wrapper Box 5: Other Technologies & Expertise -->
+                <div class="skill-wrapper-card">
+                    <div class="wrapper-header">
+                        <div class="wrapper-icon">📈</div>
+                        <div>
+                            <h3>Other Technologies & Expertise</h3>
+                            <p>Additional technical operations, office automation, and optimization tools.</p>
+                        </div>
+                    </div>
+                    <div class="sub-cards-grid">
+                        <div class="sub-card">
+                            <span class="sub-icon">📊</span>
+                            <h4>MS Office Suite</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">🔍</span>
+                            <h4>SEO Optimization</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">✍️</span>
+                            <h4>Content Operation</h4>
+                        </div>
+                        <div class="sub-card">
+                            <span class="sub-icon">🤖</span>
+                            <h4>AI Evaluation (Outlier)</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+<!-- Projects Section -->
+        <section class="projects reveal" id="projects">
+            <div class="section-header">
+                <span class="section-subtitle">Portfolio Showcase</span>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="featured">🚀 Featured & Advanced</button>
+                <button class="filter-btn" data-filter="frontend">💡 Frontend & JS</button>
+            </div>
+
+            <div class="projects-container">
+
+                <!-- Project 1 -->
+                <div class="project-card" data-category="featured">
+                    <div class="project-image">
+                        <img src="alpine-chatbot.png" alt="Alpine College ChatBot" onerror="this.src='https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">Featured</span>
+                            <span class="project-type">AI / Bot</span>
+                        </div>
+                        <h3>Alpine College ChatBot</h3>
+                        
+                        <!-- Hover Reveal Content -->
+                        <div class="project-hover-reveal">
+                            <p>An intelligent, interactive virtual assistant developed for Alpine Group of Institutes to instantly assist students and visitors with courses, admissions, and campus FAQs.</p>
+                            <div class="tech-stack">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Bot Logic</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://gb376052-cpu.github.io/Alpine-ChatBot" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/Alpine-ChatBot" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="featured">
+                    <div class="project-image">
+                        <img src="primekarts.png" alt="Prime Karts" onerror="this.src='https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">E-Commerce</span>
+                            <span class="project-type">Web App</span>
+                        </div>
+                        <h3>Prime Karts</h3>
+                        
+                        <div class="project-hover-reveal">
+                            <p>An Amazon-inspired e-commerce web application featuring core shopping functionalities like product displays, dynamic grid layouts, and seamless cart management.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Cart API</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://primekarts.netlify.app/" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/PrimeKarts" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="featured">
+                    <div class="project-image">
+                        <img src="binance.png" alt="Binance Trading Bot" onerror="this.src='https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">Python</span>
+                            <span class="project-type">FinTech</span>
+                        </div>
+                        <h3>Binance Trading Bot</h3>
+                        
+                        <div class="project-hover-reveal">
+                            <p>An interactive crypto trading simulation web app built with Python and Streamlit to analyze market trends and execute automated financial insights.</p>
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>API</span>
+                                <span>Trading</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://binance-trading-bot-d4yhxzwc528r9bahufetzx.streamlit.app/" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/binance-trading-bot" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="weather.jpg" alt="Weather App" onerror="this.src='https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">Utility</span>
+                            <span class="project-type">API App</span>
+                        </div>
+                        <h3>Weather App</h3>
+                        
+                        <div class="project-hover-reveal">
+                            <p>A dynamic weather application delivering live weather updates automatically based on location using Open-Meteo REST & Geocoding APIs.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Open-Meteo API</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://gb376052-cpu.github.io/Weather-App/" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/Weather-App" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="MiniArcade.jpg" alt="Mini Arcade Hub" onerror="this.src='https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">Gaming</span>
+                            <span class="project-type">Mini Games</span>
+                        </div>
+                        <h3>Mini Arcade Hub</h3>
+                        
+                        <div class="project-hover-reveal">
+                            <p>An interactive, responsive gaming hub built with modern JavaScript featuring real-time gameplay, clean UI, and engaging browser mini-games.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://gb376052-cpu.github.io/MiniArcadeHub/" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/MiniArcadeHub" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="calculator.jpg" alt="JS Calculator" onerror="this.src='https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&auto=format&fit=crop&q=60'">
+                    </div>
+                    <div class="project-card-body">
+                        <div class="project-header-bar">
+                            <span class="project-tag-badge">Tool</span>
+                            <span class="project-type">Calculator</span>
+                        </div>
+                        <h3>JS Calculator</h3>
+                        
+                        <div class="project-hover-reveal">
+                            <p>A versatile 4-in-1 calculator engineered with a sleek modern UI, full keyboard input support, and robust handling of standard arithmetic operations.</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://gb376052-cpu.github.io/JS-Calculator/" target="_blank" class="btn btn-primary">Live Demo 🚀</a>
+                            <a href="https://github.com/gb376052-cpu/JS-Calculator" target="_blank" class="btn btn-secondary">Source Code 💻</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services reveal" id="services">
+            <div class="section-header">
+                <span class="section-subtitle">What I offer</span>
+                <h2>My Services</h2>
+            </div>
+
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Fast, responsive, and modern websites built using clean HTML, CSS, and JavaScript architectures.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI / UX Design</h3>
+                    <p>Clean, intuitive, and user-friendly interfaces tailored for exceptional digital user experiences.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Fully adaptable layouts optimized to perform seamlessly across mobiles, tablets, and desktops.</p>
+                </div>
+            </div>
+        </section>
+
+<!-- Contact Section -->
+        <section class="contact-section reveal" id="contact">
+            <div class="section-header">
+                <span class="section-badge-top">✨ Let's Connect</span>
+                <h2>Have an idea?<br><span class="highlight">Let's build it together.</span></h2>
+                <p class="section-desc">Have a project, a technical question, or want to collaborate? I'd love to connect. Drop me a line and let's start a conversation.</p>
+            </div>
+
+            <div class="contact-main-wrapper">
+                
+                <!-- Left Box: Contact Info & Intro -->
+                <div class="contact-info-box">
+                    <div class="contact-badge-small">CONTACT</div>
+                    <h3>Let's talk.</h3>
+                    <p class="contact-info-text">
+                        I am always open to discussing new freelance projects, development opportunities, or creative tech ideas.
+                    </p>
+
+                    <div class="contact-detail-item">
+                        <div class="detail-icon">✉️</div>
+                        <div>
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">gb376052@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail-item">
+                        <div class="detail-icon">📍</div>
+                        <div>
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Dehradun, India</span>
+                        </div>
+                    </div>
+
+                    <p class="response-time">Usually responds within 24 hours.</p>
+                </div>
+
+                <!-- Right Box: Contact Form -->
+                <div class="contact-form-box">
+                    <form id="contactForm" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Marco Johnson" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="name@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Project Inquiry / Collaboration" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Tell me a little about your project or idea..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-send-message">
+                            <span>Send Message</span>
+                            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Bottom Social Bar Card -->
+            <div class="contact-bottom-bar">
+                <div>
+                    <h4>Prefer connecting through social platforms?</h4>
+                    <p>Check out my profiles and let's connect online.</p>
+                </div>
+                <a href="#home" class="view-profiles-link">
+                    <span>View my profiles</span>
+                    <span>↗</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Gaurav Bisht</h2>
+            <p>Full Stack Web Developer</p>
+            <div class="social-links">
+                <a href="https://instagram.com/rajput_gauravbisht" target="_blank" aria-label="Instagram">Instagram</a>
+                <a href="https://github.com/gb376052-cpu" target="_blank" aria-label="GitHub">GitHub</a>
+                <a href="https://www.linkedin.com/in/gaurav-bisht-917ab0336" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+            <hr class="footer-divider">
+            <p class="copyright">© 2026 Gaurav Bisht. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Banner -->
+    <div id="toast" class="toast">Message sent successfully! 🚀</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
